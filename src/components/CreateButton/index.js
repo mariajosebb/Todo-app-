@@ -1,5 +1,5 @@
-import "./CreateTodoButton.css"
-import PlusIcon from "./PlusIcon.png";
+import "./CreateTodoButton.css";
+import PlusIcon from "../../assets/PlusIcon.png";
 
 function CreateTodoButton() {
     return (

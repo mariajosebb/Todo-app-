@@ -1,0 +1,43 @@
+.container--items {
+    width: 330px;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    background-color: #FAFAFA;
+    box-shadow: 3px 3px 5px rgba(32, 35, 41, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.container--items:hover {
+    background-color: #e2b4b7;
+    transform: scale(1.05);
+    color: #FAFAFA;
+}
+
+.container--items p {
+    max-width: 240px;
+    color: #1E1E1F;
+    font-size: 18px;
+    align-self: center;
+}
+
+.completeIcon {
+    width: 48px;
+    height: 48px;
+    padding-left: 12px;
+    align-self: center;
+    object-fit: contain;
+}
+
+.deleteIcon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    margin-top: -14px;
+    cursor: pointer;
+}

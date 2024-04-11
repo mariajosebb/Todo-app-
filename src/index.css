@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
+  width: auto;
+  height: 100%;
   margin: 0;
   font-family: "Montserrat", "Helvetica Neue";
+  /* background-color: #F2F4F5; */
   background-color: #F2F4F5;
 }

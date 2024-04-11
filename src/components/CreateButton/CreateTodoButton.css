@@ -1,0 +1,21 @@
+.container--button {
+    width: 60px;
+    height: 60px;
+    border-radius: 75px;
+    border: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #e2b4b7;
+    box-shadow: 2px 2px 20px rgba(226, 180, 183, 4);
+    transition: transform 0.1s ease;
+}
+
+.container--button:active {
+    transform: scale(1.1);
+}
+
+.container--button .button__icon {
+    width: 30px;
+    height: 30px;
+}
